@@ -1,0 +1,42 @@
+= Vertx-demo
+
+image:https://img.shields.io/badge/vert.x-4.3.2-purple.svg[link="https://vertx.io"]
+
+This application was generated using http://start.vertx.io
+
+* https://github.com/netbuffer/vertx-demo
+* https://gitee.com/netbuffer/vertx-demo
+
+== Building
+
+To launch your tests:
+```
+./mvnw clean test
+```
+
+To package your application:
+```
+./mvnw clean package
+```
+
+To run your application:
+```
+./mvnw clean compile exec:java
+```
+
+== Help
+
+* https://vertx.io/docs/[Vert.x Documentation]
+* https://stackoverflow.com/questions/tagged/vert.x?sort=newest&pageSize=15[Vert.x Stack Overflow]
+* https://groups.google.com/forum/?fromgroups#!forum/vertx[Vert.x User Group]
+* https://gitter.im/eclipse-vertx/vertx-users[Vert.x Gitter]
+* https://vertx.io/docs/vertx-docker/
+
+== Docker Image
+* https://hub.docker.com/r/javawiki/vertx-demo
+* docker build -t javawiki/vertx-demo:v1.0.0 .
+* docker push javawiki/vertx-demo:v1.0.0
+* docker run -it --rm -p 8001:8001 -e VERTX_DEMO_PORT=8001 javawiki/vertx-demo:v1.0.0 sh
+
+
+
